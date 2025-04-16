@@ -1,0 +1,14 @@
+# APDL Self-Sufficient Simulation Script
+
+This repository contains an APDL script used in my Master's thesis to automate simulation setup, boundary condition application, and stress result extraction in ANSYS Mechanical APDL.
+
+## How to Use
+
+1. Open ANSYS Mechanical APDL.
+2. Run `Random displacement.txt` as a batch input script.
+3. Geometry should be located at:  
+   `E:\Master thesis 2 (Automation)\Ansys\original file.igs` or change the directory as you prefere in the codes and name the geometry "original file.igs"
+4. Output: `stress_results_00.txt` contains von Mises stress values for nodes 35–110.
+
+## License
+Freely available for academic use.
